@@ -1,0 +1,46 @@
+/*
+CSS for Schedule Table
+*/
+
+body {
+    background: #f4faff;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.schedule-table {
+    margin: 30px auto;
+    width: 60%;
+    border-collapse: collapse;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.schedule-table th, 
+.schedule-table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.header-row {
+    background: #bcd4ff;
+    font-weight: bold;
+}
+
+.schedule-table tr:nth-child(even) {
+    background: #eef5ff;
+}
+
+.highlight {
+    background: #ffe8b3 !important;
+}
+
+.schedule-table tr:hover {
+    background: #d8e6ff;
+    transition: 0.3s;
+}
