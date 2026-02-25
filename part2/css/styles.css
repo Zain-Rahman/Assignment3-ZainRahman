@@ -12,7 +12,7 @@ body {
     font-size: 32px;
     margin-top: 20px;
 }
-
+/* This is a must to add to make sure you are fit to work */
 .schedule-table {
     margin: 30px auto;
     width: 60%;
@@ -20,6 +20,7 @@ body {
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
 }
 
+/* Add more colour to the schedule to be aesthetic */
 .schedule-table th, 
 .schedule-table td {
     border: 1px solid #ccc;
